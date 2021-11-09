@@ -1,0 +1,21 @@
+.contact-info-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info-item .icon {
+  background-color: #ffb324;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid #b47500;
+  transition: ease-in-out 0.25s;
+}
