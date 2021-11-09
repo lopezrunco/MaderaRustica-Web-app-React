@@ -1,5 +1,6 @@
 import PageTitle from "../../components/PageTitle"
 import ContactInfo from "../../components/ContactInfo"
+import ContactForm from "../../components/ContactForm"
 
 function Contacto() {
     return (
@@ -15,7 +16,7 @@ function Contacto() {
                         <ContactInfo />
                     </div>
                     <div className="col-md-7">
-
+                        <ContactForm />
                     </div>
                 </div>
             </div>
