@@ -1,13 +1,17 @@
 import './style.css'
 
+import SocialLinks from '../SocialLinks'
+
 function Footer() {
     return (
         <footer>
-            <div className="container">
+            <div className="container mb-4">
                 <div className="row">
                     <div className="footer-wrapper">
-                        <p>Desarrollo: <a href="https://www.lopezrunco.com/" target="_blank" rel="noreferrer">lopezrunco</a></p>
-                        <p>© Rústica | Todos los derechos reservados</p>
+                        <div className="site-info">
+                            <p>© Rústica | Todos los derechos reservados | Desarrollo: <a href="https://www.lopezrunco.com/" target="_blank" rel="noreferrer">lopezrunco</a></p>
+                        </div>
+                        <SocialLinks />
                     </div>
                 </div>
             </div>

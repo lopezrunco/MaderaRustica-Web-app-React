@@ -2,6 +2,10 @@ footer {
   padding-top: 20px;
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 footer .footer-wrapper {
   display: flex;
   flex-direction: row;

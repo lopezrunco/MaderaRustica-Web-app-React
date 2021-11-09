@@ -23,6 +23,9 @@ function Nav() {
                                     <Link to="/testimonios"><i class="far fa-comments"></i><span>Testimonios</span></Link>
                                 </li>
                                 <li>
+                                    <Link to="/novedades"><i class="fas fa-newspaper"></i><span>Novedades</span></Link>
+                                </li>
+                                <li>
                                     <Link to="/contacto"><i class="fas fa-envelope"></i><span>Contacto</span></Link>
                                 </li>
                             </ul>
