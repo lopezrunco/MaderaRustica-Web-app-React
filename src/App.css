@@ -60,6 +60,13 @@ main .container {
   font-weight: 700;
 }
 
+.category {
+  font-size: 16px;
+  color: #ff451b;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 h3 {
   font-size: 35px;
   color: #fff;

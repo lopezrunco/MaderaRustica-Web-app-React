@@ -15,4 +15,9 @@ footer .footer-wrapper {
 
 footer .footer-wrapper a {
   color: #ff451b;
+  transition: ease-in-out .25s;
+}
+
+footer .footer-wrapper a:hover {
+  color: #ffb324;
 }
