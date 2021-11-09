@@ -8,7 +8,7 @@ function AboutInfo() {
         <div className="about-info">
             <span className="subtitle">Muebles</span>
             <img src={logo} alt="Madera Rustica Logo" className="logo" />
-            <p>Importados desde Paraguay, vendemos muebles 100% madera de eucaliptus.</p>
+            <p>Importados desde Paraguay, vendemos muebles 100% de madera dura</p>
             <PlayVideo />
         </div>
     )

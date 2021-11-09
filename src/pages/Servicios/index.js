@@ -1,10 +1,12 @@
+import PageTitle from "../../components/PageTitle"
+
 function Servicios() {
     return (
         <main>
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2>Servicios</h2>
+                        <PageTitle title="Nuestro compromiso con la calidad" subtitle="Servicios" />
                     </div>
                 </div>
             </div>
