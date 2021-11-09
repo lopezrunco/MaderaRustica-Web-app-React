@@ -1,0 +1,29 @@
+.play-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.play-video .icon {
+    background-color: #ffb324;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #b47500;
+    transition: ease-in-out .25s;
+}
+
+.play-video .icon:hover {
+    border: 10px solid #cf8a08;
+}
+
+.play-video .text {
+    font-size: 20px;
+    font-weight: 700;
+}

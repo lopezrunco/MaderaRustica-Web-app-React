@@ -17,7 +17,7 @@ function Nav() {
                                     <Link to="/catalogo"><i class="fas fa-briefcase"></i><span>Catálogo</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/servicios"><i class="fas fa-briefcase"></i><span>Servicios</span></Link>
+                                    <Link to="/servicios"><i class="fas fa-cog"></i><span>Servicios</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/testimonios"><i class="far fa-comments"></i><span>Testimonios</span></Link>
