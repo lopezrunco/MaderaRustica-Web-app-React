@@ -36,6 +36,7 @@ a:hover {
   align-items: center;
   gap: 10px;
   transition: ease-in-out .25s;
+  width: min-content;
 }
 
 .primary-button:hover {
@@ -45,12 +46,28 @@ a:hover {
 main .container {
   background-color: #494b50;
   border-radius: 10px;
-  padding: 50px;
+  padding: 80px;
+  transition: ease-in-out .25s;
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 21px;
   color: #ff451b;
   font-weight: 700;
 }
 
+h3 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  color: #a7afbd;
+}
+
+p.large {
+  font-size: 19px;
+  color: #d3d7df;
+}

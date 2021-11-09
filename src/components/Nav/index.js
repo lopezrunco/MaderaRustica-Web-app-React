@@ -27,7 +27,7 @@ function Nav() {
                                 </li>
                             </ul>
                         </nav>
-                        <a className="primary-button"><i class="fas fa-download"></i>Catalogue</a>
+                        <a className="primary-button"><i class="fas fa-download"></i>Catálogo</a>
                     </div>
                 </div>
             </div>
