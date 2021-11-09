@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './App.css'
 
-import Inicio from './pages/Inicio'
+import Nosotros from './pages/Nosotros'
 import Catalogo from './pages/Catalogo'
+import Servicios from './pages/Servicios'
 import Testimonios from './pages/Testimonios'
 import Contacto from './pages/Contacto'
 
@@ -26,8 +27,11 @@ function App() {
           <Route path="/catalogo">
             <Catalogo />
           </Route>
+          <Route path="/servicios">
+            <Servicios />
+          </Route>
           <Route path="/">
-            <Inicio />
+            <Nosotros />
           </Route>
         </Switch>
 

@@ -1,7 +1,7 @@
 ## Madera rustica Web App React
 
 ```bash
-# Instalar dependencies
+# Install dependencies
 npm install
 
 # Run app

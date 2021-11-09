@@ -1,0 +1,55 @@
+header {
+  padding: 20px;
+}
+
+header .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header nav ul li {
+  padding: 25px;
+  background-color: #494b50;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+  overflow: hidden;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  transition: ease-in-out 0.25s;
+}
+header nav ul li:hover {
+  width: 200px;
+}
+
+header nav ul li span {
+  color: #fff;
+  font-weight: 700;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transition: ease-in-out 0.25s;
+}
+
+header nav ul li a i {
+  font-size: 20px;
+  color: #ff451b;
+}
