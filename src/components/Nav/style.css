@@ -1,5 +1,5 @@
 header {
-  padding: 20px;
+  padding-top: 20px;
 }
 
 header .header-container {
@@ -7,6 +7,7 @@ header .header-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0;
 }
 
 header nav ul {
@@ -15,6 +16,7 @@ header nav ul {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
+  padding: 0;
 }
 
 header nav ul li {

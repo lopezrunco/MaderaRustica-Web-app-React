@@ -1,5 +1,15 @@
 function Contacto() {
-    return <h2>Contacto</h2>
+    return (
+        <main>
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <h2>Contacto</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+    )
 }
 
-export default Contacto 
+export default Contacto
