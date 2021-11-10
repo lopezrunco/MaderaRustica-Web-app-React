@@ -1,4 +1,9 @@
 import PageTitle from "../../components/PageTitle"
+import TestimonialItem from "../../components/TestimonialItem"
+
+
+import alisonGomezAvatar from '../../assets/img/alison-gomez.jpg'
+import pedroPerezAvatar from '../../assets/img/pedro-perez.jpg'
 
 function Testimonios() {
     return (
@@ -8,6 +13,10 @@ function Testimonios() {
                     <div className="col">
                         <PageTitle title="Lo que dicen nuestros clientes" subtitle="Testimonios" />
                     </div>
+                </div>
+                <div className="row">
+                    <TestimonialItem avatar={alisonGomezAvatar} quote="Nunc dapibus volutpat purus, sit amet pellentesque lorem. Vestibulum id bibendum ligula, vehicula varius velit. Duis tempor congue mauris nec sagittis. Duis ipsum nisi, feugiat nec convallis a, congue at ipsum." authorName="Alison Gomez" authorWork="Empresaria" />
+                    <TestimonialItem avatar={pedroPerezAvatar} quote="It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more and more recently with software like Aldus PageMaker including versions of Lorem Ipsum." authorName="Pedro Perez" authorWork="Productor rural" />
                 </div>
             </div>
         </main>
