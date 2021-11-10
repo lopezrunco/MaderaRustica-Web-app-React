@@ -7,7 +7,7 @@ function PortfolioItem(props) {
     }
 
     return (
-        <a className="col-md-4 mb-4 portfolio-item" href="/">
+        <a className="col-lg-4 mb-4 portfolio-item" href="/">
             <div className="image-bg" style={imageStyle}>
                 <div className="hover-effect">
                     <div className="text-container">

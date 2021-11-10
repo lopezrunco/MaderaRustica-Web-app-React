@@ -94,3 +94,16 @@ p.large {
   font-size: 19px;
   color: #d3d7df;
 }
+
+@media screen and (max-width: 576px) {
+  main .container{
+    padding: 40px;
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  main .container{
+    padding: 20px;
+  }
+}

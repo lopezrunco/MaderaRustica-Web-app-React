@@ -6,10 +6,10 @@ function Nosotros() {
         <main>
             <div className="container">
                 <div className="row justify-content-between">
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <AboutInfo />
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-lg-5">
                         <BusinessResume />
                     </div>
                 </div>

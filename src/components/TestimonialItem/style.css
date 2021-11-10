@@ -55,8 +55,20 @@
 
 .testimonial-item .info .icon {
   color: #ffb324;
-  /* position: absolute;
-  opacity: 0.7; */
   font-size: 40px;
-  /* transform: translate(220%, 40%); */
+}
+
+@media screen and (max-width: 992px) {
+  .testimonial-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .testimonial-item {
+    padding: 30px;
+  }
+  .testimonial-item .info .icon {
+    display: none;
+  }
 }

@@ -1,6 +1,5 @@
 import './style.css'
 
-
 function TestimonialItem(props) {
 
     const imageStyle = {
@@ -8,7 +7,7 @@ function TestimonialItem(props) {
     }
 
     return (
-        <div className="col-md-6">
+        <div className="col-lg-6">
             <div className="testimonial-item">
                 <blockquote>{props.quote}</blockquote>
                 <div className="info">

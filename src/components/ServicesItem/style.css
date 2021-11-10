@@ -27,3 +27,9 @@
 .service-item .icon i {
   font-size: 30px;
 }
+
+@media screen and (max-width: 386px) {
+  .service-item {
+    padding: 30px 20px;
+  }
+}

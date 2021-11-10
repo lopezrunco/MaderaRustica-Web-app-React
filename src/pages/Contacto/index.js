@@ -12,10 +12,10 @@ function Contacto() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-lg-5 mb-4">
                         <ContactInfo />
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-lg-7">
                         <ContactForm />
                     </div>
                 </div>

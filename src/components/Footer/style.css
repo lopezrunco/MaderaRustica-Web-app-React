@@ -15,9 +15,18 @@ footer .footer-wrapper {
 
 footer .footer-wrapper a {
   color: #ff451b;
-  transition: ease-in-out .25s;
+  transition: ease-in-out 0.25s;
 }
 
 footer .footer-wrapper a:hover {
   color: #ffb324;
+}
+
+@media screen and (max-width: 576px) {
+  footer .footer-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
 }

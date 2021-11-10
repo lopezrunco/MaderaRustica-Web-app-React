@@ -52,3 +52,9 @@
 .news-item .main-wrapper .content-wrapper .read-more:hover {
   color: #ffb324;
 }
+
+@media screen and (max-width: 992px) {
+  .news-item {
+    margin-bottom: 30px;
+  }
+}

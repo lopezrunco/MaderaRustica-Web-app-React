@@ -7,7 +7,7 @@ function NewsItem(props) {
     }
 
     return (
-        <a className="col-md-4 news-item" href="/">
+        <a className="col-lg-4 news-item" href="/">
             <div className="main-wrapper">
                 <div className="image-wrapper">
                     <div className="image" style={imageStyle}></div>

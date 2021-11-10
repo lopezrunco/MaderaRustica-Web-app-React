@@ -28,3 +28,12 @@
   height: 100%;
   text-align: center;
 }
+
+@media screen and (max-width: 386px) {
+  .portfolio-item .image-bg {
+    height: 200px;
+  }
+  .portfolio-item .hover-effect .text-container {
+    justify-content: center;
+  }
+}

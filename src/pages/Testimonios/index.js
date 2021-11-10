@@ -15,8 +15,8 @@ function Testimonios() {
                     </div>
                 </div>
                 <div className="row">
-                    <TestimonialItem avatar={alisonGomezAvatar} quote="Nunc dapibus volutpat purus, sit amet pellentesque lorem. Vestibulum id bibendum ligula, vehicula varius velit. Duis tempor congue mauris nec sagittis. Duis ipsum nisi, feugiat nec convallis a, congue at ipsum." authorName="Alison Gomez" authorWork="Empresaria" />
-                    <TestimonialItem avatar={pedroPerezAvatar} quote="It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more and more recently with software like Aldus PageMaker including versions of Lorem Ipsum." authorName="Pedro Perez" authorWork="Productor rural" />
+                    <TestimonialItem avatar={alisonGomezAvatar} quote="Nunc dapibus volutpat purus, sit amet pellentesque lorem. Duis tempor congue mauris nec sagittis. Duis ipsum nisi, feugiat nec convallis a, congue at ipsum." authorName="Alison Gomez" authorWork="Empresaria" />
+                    <TestimonialItem avatar={pedroPerezAvatar} quote="It was popularised in the 1960s with the release of more and more recently with software like Aldus PageMaker including versions of aremit das velle norte." authorName="Pedro Perez" authorWork="Productor rural" />
                 </div>
             </div>
         </main>
