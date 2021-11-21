@@ -1,0 +1,32 @@
+footer {
+  padding-top: 20px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #a7afbd;
+
+    a {
+      color: #ff451b;
+      transition: ease-in-out 0.25s;
+
+      &:hover {
+        color: #ffb324;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .footer-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

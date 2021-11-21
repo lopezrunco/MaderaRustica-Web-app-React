@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 
 import instagramLogo from '../../assets/img/instagram-logo.svg'
 import youtubeLogo from '../../assets/img/youtube-logo.svg'

@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 // General styles
-import './App.css'
+import './App.scss'
 
 // Pages
 import Nosotros from './pages/Nosotros'

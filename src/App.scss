@@ -41,10 +41,10 @@ a:hover {
   gap: 10px;
   transition: ease-in-out .25s;
   width: min-content;
-}
 
-.primary-button:hover {
-  background-color: #ffb324;
+  &:hover {
+    background-color: #ffb324;
+  }
 }
 
 main .container {

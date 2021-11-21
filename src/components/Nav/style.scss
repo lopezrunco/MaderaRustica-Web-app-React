@@ -1,0 +1,91 @@
+header {
+  padding-top: 20px;
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+
+    li {
+      padding: 25px;
+      background-color: #494b50;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: ease-in-out 0.25s;
+      overflow: hidden;
+      width: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      transition: ease-in-out 0.25s;
+
+      &:hover {
+        width: 200px;
+      }
+
+      span {
+        color: #fff;
+        font-weight: 700;
+      }
+
+      a {
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: ease-in-out 0.25s;
+
+        i {
+          font-size: 20px;
+          color: #ff451b;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-container .primary-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 100%;
+
+    ul {
+      flex-direction: column;
+
+      li {
+        padding: 15px 25px;
+        gap: 20px;
+      }
+    }
+  }
+
+  header nav ul li,
+  header nav ul li:hover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header nav {
+    width: 98%;
+    margin: 0 auto;
+  }
+}

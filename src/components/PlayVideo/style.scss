@@ -1,12 +1,11 @@
 .play-video {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 
-.play-video .icon {
+  .icon {
     background-color: #ffb324;
     border-radius: 50%;
     width: 70px;
@@ -16,14 +15,15 @@
     justify-content: center;
     align-items: center;
     border: 0px solid #b47500;
-    transition: ease-in-out .25s;
-}
+    transition: ease-in-out 0.25s;
 
-.play-video .icon:hover {
-    border: 10px solid #cf8a08;
-}
+    &:hover {
+      border: 10px solid #cf8a08;
+    }
+  }
 
-.play-video .text {
+  .text {
     font-size: 20px;
     font-weight: 700;
+  }
 }
