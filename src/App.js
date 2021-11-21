@@ -1,5 +1,5 @@
 // External
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 // General styles
 import './App.css'
@@ -19,37 +19,23 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
 
-        <BackgroundShape />
-        <Nav />
+      <BackgroundShape />
+      <Nav />
 
-        <Switch>
-          <Route path="/contacto">
-            <Contacto />
-          </Route>
-          <Route path="/novedades">
-            <Novedades />
-          </Route>
-          <Route path="/testimonios">
-            <Testimonios />
-          </Route>
-          <Route path="/servicios">
-            <Servicios />
-          </Route>
-          <Route path="/catalogo">
-            <Catalogo />
-          </Route>
-          <Route path="/">
-            <Nosotros />
-          </Route>
-        </Switch>
+      <Routes>
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/novedades" element={<Novedades />} />
+        <Route path="/testimonios" element={<Testimonios />} />
+        <Route path="/servicios" element={<Servicios />} />
+        <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/" element={<Nosotros />} />
+      </Routes>
 
-        <Footer />
+      <Footer />
 
-      </div>
-    </Router>
+    </div>
   )
 }
 
