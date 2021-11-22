@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 footer {
   padding-top: 20px;
 
@@ -9,14 +11,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #a7afbd;
+    color: $dark20-text-color;
 
     a {
-      color: #ff451b;
-      transition: ease-in-out 0.25s;
+      color: $primary-color;
+      transition: $main-transition;
 
       &:hover {
-        color: #ffb324;
+        color: $secondary-color;
       }
     }
   }

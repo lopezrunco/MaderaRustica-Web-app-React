@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 .contact-info-item {
   display: flex;
   flex-direction: row;
@@ -6,7 +8,7 @@
   gap: 10px;
 
   .icon {
-    background-color: #ffb324;
+    background-color: $secondary-color;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -15,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0px solid #b47500;
-    transition: ease-in-out 0.25s;
+    border: 0px solid $secondary-color;
+    transition: $main-transition;
   }
 }

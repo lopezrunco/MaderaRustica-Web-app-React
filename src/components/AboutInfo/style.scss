@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 .about-info {
   display: flex;
   flex-direction: column;
@@ -11,7 +13,7 @@
 
   p {
     font-size: 20px;
-    color: #a7afbd;
+    color: $dark20-text-color;
   }
 }
 

@@ -1,3 +1,5 @@
+@import "../../Variables.scss";
+
 header {
   padding-top: 20px;
 
@@ -18,23 +20,23 @@ header {
     padding: 0;
 
     li {
-      background-color: #494b50;
+      background-color: $dark-background-color;
       border-radius: 10px;
       cursor: pointer;
-      transition: ease-in-out 0.25s;
+      transition: $main-transition;
       overflow: hidden;
       width: 70px;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
-      transition: ease-in-out 0.25s;
+      transition: $main-transition;
 
       &.active {
         width: 200px;
-        background-color: #ff451b;
-        
+        background-color: $primary-color;
+
         i {
-          color: #fff;
+          color: $text-color;
         }
       }
 
@@ -43,7 +45,7 @@ header {
       }
 
       span {
-        color: #fff;
+        color: $text-color;
         font-weight: 700;
       }
 
@@ -54,12 +56,12 @@ header {
         justify-content: center;
         align-items: center;
         gap: 30px;
-        transition: ease-in-out 0.25s;
+        transition: $main-transition;
         padding: 25px;
 
         i {
           font-size: 20px;
-          color: #ff451b;
+          color: $primary-color;
         }
       }
     }

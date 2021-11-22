@@ -1,12 +1,14 @@
+@import "../../Variables.scss";
+
 .testimonial-item {
-  background-color: #5b5c64;
+  background-color: $background-color-news;
   border-radius: 10px;
   padding: 50px;
 
   blockquote {
     font-size: 19px;
     font-style: italic;
-    color: #a7afbd;
+    color: $dark20-text-color;
     margin-bottom: 30px;
   }
 
@@ -18,7 +20,7 @@
     gap: 20px;
 
     .icon {
-      color: #ffb324;
+      color: $secondary-color;
       font-size: 40px;
     }
 
@@ -52,7 +54,7 @@
       }
 
       span {
-        color: #a7afbd;
+        color: $dark20-text-color;
       }
     }
   }

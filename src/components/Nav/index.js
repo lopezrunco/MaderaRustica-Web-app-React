@@ -17,6 +17,7 @@ function Nav() {
     // Map all links and adds an event listener to the function linkAction
     navLink.forEach(n => n.addEventListener('click', linkAction))
 
+    
     return (
         <header>
             <div className="container">

@@ -1,3 +1,5 @@
+@import "../../Variables.scss";
+
 .portfolio-item {
   .image-bg {
     border-radius: 10px;
@@ -12,8 +14,8 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #ff451ba3;
-    transition: ease-in-out 0.25s;
+    background-color: $portfolio-hover-color;
+    transition: $main-transition;
 
     &:hover {
       opacity: 1;

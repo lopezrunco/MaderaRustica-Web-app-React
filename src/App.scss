@@ -1,3 +1,5 @@
+@import 'Variables.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 ::selection {
-  background-color: #fd5a35;
+  background-color: $selection-color;
 }
 
 ul li {
@@ -15,11 +17,11 @@ ul li {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1d1b1b;
-  color: #ffffff;
+  color: $text-color;
 }
 
 a {
-  color: #ffffff;
+  color: $text-color;
   text-decoration: none;
 }
 a:hover {
@@ -30,7 +32,7 @@ a:hover {
   font-size: 14px;
   text-transform: uppercase;
   padding: 10px 35px;
-  background-color: #ff451b;
+  background-color: $primary-color;
   border-radius: 10px;
   font-weight: 700;
   cursor: pointer;
@@ -39,60 +41,60 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  transition: ease-in-out .25s;
+  transition: $main-transition;
   width: min-content;
 
   &:hover {
-    background-color: #ffb324;
+    background-color: $secondary-color;
   }
 }
 
 main .container {
-  background-color: #494b50;
+  background-color: $dark-background-color;
   border-radius: 10px;
   padding: 80px;
-  transition: ease-in-out .25s;
+  transition: $main-transition;
 }
 
 .subtitle {
   font-size: 21px;
-  color: #ff451b;
+  color: $primary-color;
   font-weight: 700;
 }
 
 .category {
   font-size: 16px;
-  color: #ff451b;
+  color: $primary-color;
   font-weight: 700;
   margin-bottom: 0;
 }
 
 h3 {
   font-size: 35px;
-  color: #fff;
+  color: $text-color;
   font-weight: 700;
 }
 
 h4 {
   font-size: 25px;
-  color: #fff;
+  color: $text-color;
   font-weight: 700;
 }
 
 h5 {
   font-size: 19px;
-  color: #fff;
+  color: $text-color;
   font-weight: 700;
 }
 
 p {
   font-size: 16px;
-  color: #a7afbd;
+  color: $dark20-text-color;
 }
 
 p.large {
   font-size: 19px;
-  color: #d3d7df;
+  color: $dark10-text-color;
 }
 
 @media screen and (max-width: 576px) {

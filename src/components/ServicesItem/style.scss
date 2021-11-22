@@ -1,3 +1,5 @@
+@import "../../Variables.scss";
+
 .service-item {
   display: flex;
   flex-direction: column;
@@ -5,13 +7,13 @@
   align-items: center;
   gap: 10px;
   text-align: center;
-  background-color: #5c5d64;
+  background-color: $background-color-news;
   border-radius: 10px;
   padding: 60px 30px;
   height: 100%;
 
   .icon {
-    background-color: #ffb324;
+    background-color: $secondary-color;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -19,8 +21,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0px solid #b47500;
-    transition: ease-in-out 0.25s;
+    border: 0px solid $secondary-color;
+    transition: $main-transition;
 
     i {
       font-size: 30px;
