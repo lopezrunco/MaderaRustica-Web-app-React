@@ -18,7 +18,6 @@ header {
     padding: 0;
 
     li {
-      padding: 25px;
       background-color: #494b50;
       border-radius: 10px;
       cursor: pointer;
@@ -29,6 +28,15 @@ header {
       flex-direction: row;
       justify-content: flex-start;
       transition: ease-in-out 0.25s;
+
+      &.active {
+        width: 200px;
+        background-color: #ff451b;
+        
+        i {
+          color: #fff;
+        }
+      }
 
       &:hover {
         width: 200px;
@@ -47,6 +55,7 @@ header {
         align-items: center;
         gap: 30px;
         transition: ease-in-out 0.25s;
+        padding: 25px;
 
         i {
           font-size: 20px;
@@ -71,14 +80,18 @@ header {
       flex-direction: column;
 
       li {
-        padding: 15px 25px;
         gap: 20px;
+
+        a {
+          width: 100%;
+        }
       }
     }
   }
 
   header nav ul li,
-  header nav ul li:hover {
+  header nav ul li:hover,
+  header nav ul li.active {
     width: 100%;
   }
 }
