@@ -31,15 +31,6 @@ header {
       justify-content: flex-start;
       transition: $main-transition;
 
-      &.active {
-        width: 200px;
-        background-color: $primary-color;
-
-        i {
-          color: $text-color;
-        }
-      }
-
       &:hover {
         width: 200px;
       }
@@ -49,7 +40,7 @@ header {
         font-weight: 700;
       }
 
-      a {
+      a.nav-link {
         font-size: 16px;
         display: flex;
         flex-direction: row;
@@ -58,6 +49,15 @@ header {
         gap: 30px;
         transition: $main-transition;
         padding: 25px;
+
+        &.active {
+          width: 200px;
+          background-color: $primary-color;
+  
+          i {
+            color: $text-color;
+          }
+        }
 
         i {
           font-size: 20px;
@@ -93,7 +93,7 @@ header {
 
   header nav ul li,
   header nav ul li:hover,
-  header nav ul li.active {
+  header nav ul li a.nav-link.active {
     width: 100%;
   }
 }

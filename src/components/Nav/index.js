@@ -1,23 +1,10 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import NavigationLink from '../NavigationLink'
 
 import './style.scss'
 
 function Nav() {
 
-    // Saves all .link elements
-    const navLink = document.querySelectorAll('.link')
-
-    function linkAction() {
-        // Map all .link elements and remove the className .active
-        navLink.forEach(n => n.classList.remove('active'))
-        // Add .active className only to the actual item
-        this.classList.add('active')
-    }
-
-    // Map all links and adds an event listener to the function linkAction
-    navLink.forEach(n => n.addEventListener('click', linkAction))
-
-    
     return (
         <header>
             <div className="container">
@@ -25,27 +12,27 @@ function Nav() {
                     <div className="col header-container">
                         <nav>
                             <ul>
-                                <li className="link">
-                                    <Link to="/"><i class="fas fa-home"></i><span>Nosotros</span></Link>
+                                <li>
+                                    <NavigationLink to="/"><i className="fas fa-home"></i><span>Nosotros</span></NavigationLink>
                                 </li>
-                                <li className="link">
-                                    <Link to="/catalogo"><i class="fas fa-briefcase"></i><span>Catálogo</span></Link>
+                                <li>
+                                    <NavigationLink to="/catalogo"><i className="fas fa-briefcase"></i><span>Catálogo</span></NavigationLink>
                                 </li>
-                                <li className="link">
-                                    <Link to="/servicios"><i class="fas fa-cog"></i><span>Servicios</span></Link>
+                                <li>
+                                    <NavigationLink to="/servicios"><i className="fas fa-cog"></i><span>Servicios</span></NavigationLink>
                                 </li>
-                                <li className="link">
-                                    <Link to="/testimonios"><i class="far fa-comments"></i><span>Testimonios</span></Link>
+                                <li>
+                                    <NavigationLink to="/testimonios"><i className="far fa-comments"></i><span>Testimonios</span></NavigationLink>
                                 </li>
-                                <li className="link">
-                                    <Link to="/novedades"><i class="fas fa-newspaper"></i><span>Novedades</span></Link>
+                                <li>
+                                    <NavigationLink to="/novedades"><i className="fas fa-newspaper"></i><span>Novedades</span></NavigationLink>
                                 </li>
-                                <li className="link">
-                                    <Link to="/contacto"><i class="fas fa-envelope"></i><span>Contacto</span></Link>
+                                <li>
+                                    <NavigationLink to="/contacto"><i className="fas fa-envelope"></i><span>Contacto</span></NavigationLink>
                                 </li>
                             </ul>
                         </nav>
-                        <a className="primary-button" href="/"><i class="fas fa-download"></i>Catálogo</a>
+                        <a className="primary-button" href="/"><i className="fas fa-download"></i>Catálogo</a>
                     </div>
                 </div>
             </div>
