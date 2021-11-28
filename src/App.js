@@ -11,6 +11,7 @@ import Servicios from './pages/Servicios'
 import Testimonios from './pages/Testimonios'
 import Novedades from './pages/Novedades'
 import Contacto from './pages/Contacto'
+import NotFound from './pages/NotFound'
 
 // Components
 import BackgroundShape from './components/BackgroundShape'
@@ -31,6 +32,7 @@ function App() {
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/" element={<Nosotros />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

@@ -6,4 +6,10 @@ npm install
 
 # Run app
 npm start
+
+# Build
+npm run build
+
+# Compile & deploy to firebase
+npm run deploy
 ```

@@ -42,7 +42,7 @@ a:hover {
   align-items: center;
   gap: 10px;
   transition: $main-transition;
-  width: min-content;
+  width: auto;
 
   &:hover {
     background-color: $secondary-color;
