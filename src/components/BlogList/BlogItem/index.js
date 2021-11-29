@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import './style.scss'
 
 const BlogItem = ({
     // Deconstruct the prop into the content components
@@ -11,17 +12,16 @@ const BlogItem = ({
     },
 }) => {
     return (
-        <div className='blog-item-wrap'>
-            {/* Set image url from prop cover */}
-            <img className='blog-item-cover' src={cover} alt='cover' />
+        <div className='col-lg-4 blog-item-wrapper'>
+            <Link to={`/novedades/${id}`}>
+                <div className="flex">
+                    {/* Set image url from prop cover */}
+                    <img src={cover} alt='cover' />
 
-            <h3>{title}</h3>
-            <p className="blog-item-desc">{description}</p>
-
-            <footer>
-                {/* Generate a dinamic route using the id from the props */}
-                <Link to={`/novedades/${id}`}>Ver</Link>
-            </footer>
+                    <h5>{title}</h5>
+                    <p className="blog-item-desc">{description}</p>
+                </div>
+            </Link>
         </div>
     )
 }

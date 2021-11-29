@@ -3,7 +3,7 @@ import BlogItem from './BlogItem'
 
 // Recibes the data as prop
 const BlogList = ({ blogs }) => (
-    <div className="blog-list-wrap">
+    <div className="row">
 
         {/* 
             Iterate the data blog array and create a BlogItem component for each one, 

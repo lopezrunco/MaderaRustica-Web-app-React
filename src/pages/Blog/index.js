@@ -3,11 +3,12 @@ import { useParams } from "react-router"
 import { Link } from "react-router-dom"
 import { blogList } from "../../data"
 import EmptyList from "../../components/EmptyList"
+import './style.scss'
 
 const Blog = () => {
 
     // Recibes the id and uses to set the route
-    const {id} = useParams()
+    const { id } = useParams()
     // Use state to set the current blog item
     const [blog, setBlog] = useState(null)
 
@@ -21,25 +22,34 @@ const Blog = () => {
         }
     })
 
-    return(
-        <div>
-            <Link to='/novedades' className='blog-go-back'>Go Back</Link>
+    return (
+        <main className="blog-item">
+            <div className="container">
+                <div className="row">
+                    <div className="col blog-wrapper">
+                        <Link to='/novedades' className='go-back'><i class="fas fa-arrow-left"></i> Go Back</Link>
 
-            {/* If exists a blog item, render it with the blog data. If not, shows empty message */}
-            {
-                blog ? (
-                    <div className="blog-wrap">
-                        <header>
-                            <h1>{blog.title}</h1>
-                        </header>
-                        <img src={blog.cover} alt='cover' />
-                        <p className="blog-desc">{blog.description}</p>
+                        {/* If exists a blog item, render it with the blog data. If not, shows empty message */}
+                        {
+                            blog ? (
+                                <div className="row blog-item-body">
+                                    <div className="col-lg-6">
+                                        <img src={blog.cover} alt='cover' />
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <h3>{blog.title}</h3>
+                                        <div className="separator"></div>
+                                        <p className="blog-desc">{blog.description}</p>
+                                    </div>
+                                </div>
+                            ) : (
+                                <EmptyList />
+                            )
+                        }
                     </div>
-                ) : (
-                    <EmptyList />
-                )
-            }
-        </div>
+                </div>
+            </div>
+        </main>
     )
 }
 
