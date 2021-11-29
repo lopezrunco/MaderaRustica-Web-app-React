@@ -15,3 +15,50 @@ export const testimonialsArray = [
     { quote: 'La cita (virtual) que tuvimos - que fué con mi esposo - fue como...wow...¿que es esto? Que maravilla!" "...la parte de instalación duró día y medio y muy bien, el servicio es excelente. El servicio post-venta muy bueno.', authorName: 'Daniel Sánchez', authorWork: 'Empresario', id: '8' },
     { quote: 'Las mueblerías no nos brindaban el servicio de que el mueble fuera en curva. Nos dieron la seguridad de un plano en tercera dimensión, la cita virtual y prácticamente veíamos como iba a quedar nuestra cocina.', authorName: 'Kattia Ajoy', authorWork: 'Administrativa', id: '9' }
 ]
+
+// Blog items
+export const blogList = [
+    {
+        id: 1,
+        title: 'Article 1',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover: '/assets/images/blog/carpinteros.jpg',
+    },
+    {
+        id: 2,
+        title: 'Article 2',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover: '/assets/images/blog/casas.jpg',
+    },
+    {
+        id: 3,
+        title: 'Article 3',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover: '/assets/images/blog/madera-dura.jpg',
+    },
+    {
+        id: 4,
+        title: 'Article 4',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover: '/assets/images/blog/rolos.jpg',
+    },
+    {
+        id: 5,
+        title: 'Article 5',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover: '/assets/images/blog/biruta.jpg',
+    },
+    {
+        id: 6,
+        title: 'Article 6',
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        cover:
+            '/assets/images/blog/madera-rolo.jpg',
+    }
+]

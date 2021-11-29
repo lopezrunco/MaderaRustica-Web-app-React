@@ -9,7 +9,6 @@ import Nosotros from './pages/Nosotros'
 import Catalogo from './pages/Catalogo'
 import Servicios from './pages/Servicios'
 import Testimonios from './pages/Testimonios'
-import Novedades from './pages/Novedades'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
 
@@ -17,6 +16,8 @@ import NotFound from './pages/NotFound'
 import BackgroundShape from './components/BackgroundShape'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import BlogHome from './pages/BlogHome'
+import Blog from './pages/Blog'
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
 
       <Routes>
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/novedades" element={<Novedades />} />
+        <Route path="/novedades" element={<BlogHome />} />
+        <Route path="/novedades/:id" element={<Blog />} />
         <Route path="/testimonios" element={<Testimonios />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/catalogo" element={<Catalogo />} />
