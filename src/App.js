@@ -6,7 +6,6 @@ import './App.scss'
 
 // Pages
 import Nosotros from './pages/Nosotros'
-import Catalogo from './pages/Catalogo'
 import Servicios from './pages/Servicios'
 import Testimonios from './pages/Testimonios'
 import Contacto from './pages/Contacto'
@@ -18,6 +17,8 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import BlogHome from './pages/BlogHome'
 import Blog from './pages/Blog'
+import PortfolioHome from './pages/PortfolioHome'
+import PortfolioSingle from './pages/PortfolioSingle'
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
         <Route path="/novedades/:id" element={<Blog />} />
         <Route path="/testimonios" element={<Testimonios />} />
         <Route path="/servicios" element={<Servicios />} />
-        <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/catalogo" element={<PortfolioHome />} />
+        <Route path="/catalogo/:id" element={<PortfolioSingle />} />
         <Route path="/" element={<Nosotros />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
