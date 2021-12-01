@@ -3,7 +3,7 @@ import PortfolioItem from './PortfolioItem'
 
 // Recibes the data as prop
 const PortfolioList = ({ portfolio }) => (
-    <div className="portfolio-list-wrap">
+    <div className="row">
 
         {/* 
             Iterate the data portfolio array and create a PortfolioItem component for each one, 

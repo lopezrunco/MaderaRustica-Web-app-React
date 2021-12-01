@@ -27,7 +27,7 @@ const Blog = () => {
             <div className="container">
                 <div className="row">
                     <div className="col blog-wrapper">
-                        <Link to='/novedades' className='go-back'><i class="fas fa-arrow-left"></i> Go Back</Link>
+                        <Link to='/novedades' className='go-back'><i class="fas fa-arrow-left"></i> Volver a novedades</Link>
 
                         {/* If exists a blog item, render it with the blog data. If not, shows empty message */}
                         {
