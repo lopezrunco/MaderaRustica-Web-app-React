@@ -19,6 +19,7 @@ import BlogHome from './pages/BlogHome'
 import Blog from './pages/Blog'
 import PortfolioHome from './pages/PortfolioHome'
 import PortfolioSingle from './pages/PortfolioSingle'
+import NavigationScrollToTop from './components/NavigationScrollToTop'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
       <BackgroundShape />
       <Nav />
+      <NavigationScrollToTop />
 
       <Routes>
         <Route path="/contacto" element={<Contacto />} />
