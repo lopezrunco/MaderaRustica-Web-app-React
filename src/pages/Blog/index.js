@@ -6,21 +6,17 @@ import EmptyList from "../../components/EmptyList"
 import './style.scss'
 
 const Blog = () => {
-
-    // Recibes the id and uses to set the route
     const { id } = useParams()
-    // Use state to set the current blog item
     const [blog, setBlog] = useState(null)
 
     useEffect(() => {
         // Finds a blog matching the blog.id with the id from the props
         let blog = blogList.find(blog => blog.id === parseInt(id))
-
         // If matches, set the founded blog on the state
         if (blog) {
             setBlog(blog)
         }
-    })
+    }, [id])
 
     return (
         <main className="blog-item">
@@ -28,8 +24,6 @@ const Blog = () => {
                 <div className="row">
                     <div className="col blog-wrapper">
                         <Link to='/novedades' className='go-back'><i class="fas fa-arrow-left"></i> Volver a novedades</Link>
-
-                        {/* If exists a blog item, render it with the blog data. If not, shows empty message */}
                         {
                             blog ? (
                                 <div className="row blog-item-body">

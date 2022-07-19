@@ -15,9 +15,7 @@ const BlogItem = ({
         <div className='col-lg-4 blog-item-wrapper'>
             <Link to={`/novedades/${id}`}>
                 <div className="flex">
-                    {/* Set image url from prop cover */}
                     <img src={cover} alt='cover' />
-
                     <h5>{title}</h5>
                     <p className="blog-item-desc">{description}</p>
                 </div>

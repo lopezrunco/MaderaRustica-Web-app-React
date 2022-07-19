@@ -10,3 +10,4 @@ build
 # binaries files
 img
 public/assets/images
+src/assets/img

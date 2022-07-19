@@ -15,7 +15,7 @@ function NotFound() {
                             <h2>Esta página ya no existe!</h2>
                             <p>
                                 Lo sentimos, por alguna razón, no hemos podido encontrar la página que buscas.<br />
-                                No te enojes, pero... ¿Estás seguro que escribiste bien?
+                                ¿Estás seguro que escribiste bien?
                             </p>
                             <a className="primary-button" href="/"><i class="fas fa-home"></i>Volver a Inicio</a>
                         </div>
